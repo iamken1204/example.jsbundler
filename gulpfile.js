@@ -1,6 +1,8 @@
 
 var elixir = require('laravel-elixir')
 
+elixir.config.assetsPath = 'src'
+
 require('laravel-elixir-vue')
 
 elixir(function(mix) {
